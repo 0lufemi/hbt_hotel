@@ -233,6 +233,50 @@ p {
 }
 
 
+/* CONTACT PAGE */
+/* Form */
+.form-block {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form .form-block {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+/* Contact Info */
+#contact-info .flex-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box2 {
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+}
+
 /* Footer */
 #main-footer {
     text-align: center;
